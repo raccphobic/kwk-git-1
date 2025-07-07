@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>Hanin's Page</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      font-family: 'Georgia', serif;
+    }
+
+    .split-container {
+      display: flex;
+      height: 100vh;
+      width: 100%;
+      border-bottom: 3px solid #121212;
+    }
+
+    .left-side, .right-side {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    .left-side {
+      background-color: #EEDBBF;
+      color: #67191F;
+    }
+
+    .right-side {
+      background-color: #67191F;
+      color: #EEDBBF;
+      padding-left: 110px;
+    }
+
+    section {
+      padding: 40px 20px;
+    }
+
+    .beige-section {
+      background-color: #EEDBBF;
+      color: #67191F;
+    }
+
+    .red-section {
+      background-color: #67191F;
+      color: #EEDBBF;
+    }
+
+    h1 {
+      font-family: "Arapey", serif;
+      font-weight: 400;
+      font-style: italic;
+      font-size: 60px;
+    }
+
+    h2 {
+      font-family: "Arapey", serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 40px;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    h3 {
+      font-family: "Lato", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 40px;
+    }
+
+    ul {
+      max-width: 900px;
+      font-size: 23px;
+      margin-top: 30px;
+    }
+
+    p {
+      margin-right: 80px;
+      margin-left: 80px;
+      font-size: 23px;
+      margin-top: 60px;
+      text-align: center;
+    }
+
+    .image-gallery {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      margin-top: 15px;
+    }
+
+    .image-gallery img {
+      width: 300px;
+      border-radius: 5px;
+    }
+
+    .link-list {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 40px;
+    }
+
+    .link-list a {
+      padding: 20px 40px;
+      background-color: #EEDBBF;
+      color: #67191F;
+      text-decoration: none;
+      font-family: "Lato", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    .red-section .link-list a {
+      background-color: #EEDBBF;
+      color: #67191F;
+    }
+
+    .beige-section .link-list a {
+      background-color: #67191F;
+      color: #EEDBBF;
+    }
+
+    .link-list a:hover {
+      opacity: 0.8;
+    }
+
+    ul.fun {
+      list-style: square;
+      padding-left: 15px;
+    }
+
+    .split-section {
+      display: flex;
+      width: 100%;
+    }
+
+    .secondsection {
+      border-top: 2px solid #121212;
+      flex: 1;
+      padding: 40px 20px;
+    }
+
+    .secondsection p,
+    .secondsection ul {
+      margin: 0 60px;
+    }
+
+    .kwk {
+      background-color: #67191F;
+      color: #EEDBBF;
+    }
+
+    .funfacts {
+      background-color: #EEDBBF;
+      color: #67191F;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="split-container">
+    <div class="left-side">
+      <h1>Hello! I'm Hanin</h1>
+    </div>
+    <div class="right-side">
+      <h3>I'm a 19 year old Egyptian third year software engineering student trying to survive in an industry that evolves a whole lot quicker than I do</h3>
+    </div>
+  </div>
+
+  <section class="red-section">
+    <div class="image-gallery">
+      <img src="https://i.pinimg.com/736x/5a/55/4f/5a554f581d50840a80bba216ccb5df32.jpg">
+      <img src="https://i.pinimg.com/736x/24/4e/0e/244e0e9210d0f903451b721bf93e36db.jpg">
+      <img src="https://i.pinimg.com/736x/c3/fc/84/c3fc847188e71f7418f2f77db261084f.jpg">
+    </div>
+  </section>
+
+  <section class="beige-section">
+    <h2>Some video essays on my list!</h2>
+    <div class="link-list">
+      <a href="https://youtu.be/mpL3Pzogefk?si=UrzShaguQg-BBurC">The Importance of Real Art</a>
+      <a href="https://www.youtube.com/watch?v=8f0tJ_TOwdU">Psychological Horror in Video Games</a>
+      <a href="https://www.youtube.com/watch?v=oYlcUbLAFmw">The Internet used to be a Place</a>
+    </div>
+  </section>
+
+  <div class="split-section">
+    <div class="secondsection kwk">
+      <h2>My KWK & Coding Journey</h2>
+      <p>
+        I was always interested in coding but I never actually took the step and decided to code before university. I started coding around
+        2023 and I joined the KWK Web Development Camp in the summer which made me develop a lot more love for website development and coding. It made me realise that coding is a lot more fun than academics make it to be.
+      </p>
+    </div>
+
+    <div class="secondsection funfacts">
+      <h2>Fun Facts About Me</h2>
+      <ul class="fun">
+        <li>I'm obsessed with retro technology and desperately want to start a collection</li>
+        <li>If anything looks weird (cue labubus), I need it immediately</li>
+        <li>My idea of a weekend is staying in and playing sudoku or crosswords</li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html>
