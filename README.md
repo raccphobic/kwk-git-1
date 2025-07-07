@@ -1,5 +1,4 @@
 # kwk-git-1
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <link rel="preconnect" href="https://fonts.googleapis.com">
